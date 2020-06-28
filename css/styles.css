@@ -527,7 +527,6 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   width: 370px;
-  height: 294px;
 }
 
 .flex-element:nth-child(1)::before {
