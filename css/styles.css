@@ -385,7 +385,7 @@ a {
 
 .team-name {
   display: block;
-  margin-top: 0px;
+  margin-top: 30px;
   margin-bottom: 10px;
   color: var(--primary-text-color);
   font-weight: 500;
@@ -410,10 +410,34 @@ a {
   margin-left: 30px;
 }
 
+.command-list.list .team-item::before {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 260px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.command-list.list .team-item:nth-child(1)::before {
+  background-image: url(../images/team-1.jpg);
+}
+
+.command-list.list .team-item:nth-child(2)::before {
+  background-image: url(../images/team-2.jpg);
+}
+
+.command-list.list .team-item:nth-child(3)::before {
+  background-image: url(../images/team-3.jpg);
+}
+
+.command-list.list .team-item:nth-child(4)::before {
+  background-image: url(../images/team-4.jpg);
+}
+
 .team-item {
   background-color: var(--primary-white-color);
-  min-width: 270px;
-  min-height: 422px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 4px;
@@ -421,14 +445,11 @@ a {
   box-shadow: var(--team-shadow);
 }
 
-.team .foto {
-  margin-top: 0px;
-  margin-bottom: 30px;
-}
-
 .social.list {
   display: flex;
   justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 24px;
 }
 
 /* Customers */
