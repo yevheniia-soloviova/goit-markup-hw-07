@@ -520,13 +520,14 @@ a {
   margin-bottom: 0px;
 }
 
-.flex-element ::before {
+.flex-element::before {
   display: block;
   content: "";
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   width: 370px;
+  height: 294px;
 }
 
 .flex-element:nth-child(1)::before {
