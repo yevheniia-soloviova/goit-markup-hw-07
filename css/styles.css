@@ -188,12 +188,27 @@ a {
 
 /* Hero */
 .hero {
-  background-color: var(--hero-background-color);
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../images/Header-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hero-title {
-  margin-top: 0;
+  margin-top: 0px;
+  padding-top: 200px;
+  padding-bottom: 30px;
   margin-bottom: 30px;
   color: var(--primary-white-color);
   font-weight: 900;
@@ -301,11 +316,30 @@ a {
   margin-left: 30px;
 }
 
-.foto .work-examples.list {
+.work-examples.list .item::before {
+  display: block;
+  content: "";
   width: 370px;
   height: 294px;
   left: 215px;
   top: 1211px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.work-examples.list .item:nth-child(1)::before {
+  background-image: url(../images/img-4.jpg);
+}
+
+.work-examples.list .item:nth-child(2)::before {
+  background-image: url(../images/box-1.jpg);
+  left: 615px;
+}
+
+.work-examples.list .item:nth-child(3)::before {
+  background-image: url(../images/img-5.jpg);
+  left: 1015px;
 }
 
 .work-title {
