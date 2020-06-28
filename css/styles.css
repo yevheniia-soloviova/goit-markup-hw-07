@@ -23,6 +23,8 @@ html {
   --copyright-color: rgba(255, 255, 255, 0.4);
   --team-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
+  --portfolio-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 body {
@@ -507,6 +509,7 @@ a {
   background: var(--primary-white-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  box-shadow: var(--portfolio-shadow);
 }
 
 .flex-element:not(:nth-child(3n)) {
