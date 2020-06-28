@@ -502,6 +502,7 @@ a {
 
 .flex-element {
   width: calc((100% - 60px) / 3);
+  margin-top: 0px;
   margin-bottom: 30px;
   background: var(--primary-white-color);
   border: 1px solid #eeeeee;
@@ -516,12 +517,50 @@ a {
   margin-bottom: 0px;
 }
 
-.flex-element .photo {
-  margin-top: 0px;
-  margin-bottom: 20px;
+.flex-element ::before {
+  display: block;
+  content: "";
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 370px;
   height: 294px;
-  left: 215px;
+}
+
+.flex-element:nth-child(1)::before {
+  background-image: url(../images/portfolio-1.jpg);
+}
+
+.flex-element:nth-child(2)::before {
+  background-image: url(../images/portfolio-2.jpg);
+}
+
+.flex-element:nth-child(3)::before {
+  background-image: url(../images/portfolio-3.jpg);
+}
+
+.flex-element:nth-child(4)::before {
+  background-image: url(../images/portfolio-4.jpg);
+}
+
+.flex-element:nth-child(5)::before {
+  background-image: url(../images/portfolio-5.jpg);
+}
+
+.flex-element:nth-child(6)::before {
+  background-image: url(../images/portfolio-6.jpg);
+}
+
+.flex-element:nth-child(7)::before {
+  background-image: url(../images/portfolio-7.jpg);
+}
+
+.flex-element:nth-child(8)::before {
+  background-image: url(../images/portfolio-8.jpg);
+}
+
+.flex-element:nth-child(9)::before {
+  background-image: url(../images/portfolio-9.jpg);
 }
 
 .our.list {
