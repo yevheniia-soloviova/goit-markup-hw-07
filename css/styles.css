@@ -238,6 +238,11 @@ a {
 
 /* Features */
 
+.icon {
+  width: 70px;
+  height: 70px;
+}
+
 .features {
   display: flex;
   flex-wrap: wrap;
@@ -281,7 +286,10 @@ a {
 }
 
 .features-img {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 100px;
