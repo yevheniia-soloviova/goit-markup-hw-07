@@ -170,12 +170,9 @@ body {
   margin-left: 30px;
 }
 
-.auth-nav-mail {
+.contact-nav {
   display: flex;
   align-items: center;
-}
-
-.contact-nav {
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
@@ -194,13 +191,19 @@ a {
 }
 
 .icon.icon-envelope {
-  display: inline-block;
   width: 16px;
   height: 11, 2px;
   fill: var(--text-color);
 }
 
-.icon.icon-envelope:hover {
+.icon.icon-smartphone {
+  width: 10px;
+  height: 14, 94px;
+  fill: var(--text-color);
+}
+
+.icon.icon-envelope:hover,
+.icon.icon-smartphone:hover {
   fill: var(--accent-color);
 }
 
