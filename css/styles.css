@@ -194,12 +194,14 @@ a {
   width: 16px;
   height: 11, 2px;
   fill: var(--text-color);
+  margin-right: 10px;
 }
 
 .icon.icon-smartphone {
   width: 10px;
   height: 14, 94px;
   fill: var(--text-color);
+  margin-right: 10px;
 }
 
 .icon.icon-envelope:hover,
