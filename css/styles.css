@@ -188,6 +188,17 @@ a {
   text-decoration: none;
 }
 
+.icon.icon-envelope {
+  display: inline-block;
+  width: 16px;
+  height: 11, 2px;
+  fill: var(--text-color);
+}
+
+.icon.icon-envelope:hover {
+  fill: var(--accent-color);
+}
+
 /* Hero */
 .hero {
   max-width: 1600px;
