@@ -170,6 +170,11 @@ body {
   margin-left: 30px;
 }
 
+.auth-nav-mail {
+  display: flex;
+  align-items: center;
+}
+
 .contact-nav {
   color: var(--text-color);
   font-weight: 500;
