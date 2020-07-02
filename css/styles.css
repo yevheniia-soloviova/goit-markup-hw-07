@@ -16,6 +16,7 @@ html {
   --primary-white-color: #ffffff;
   --primary-background-color: #e5e5e5;
   --secondary-background-color: #2f303a;
+  --clients-color: #afb1b8;
   --hero-background-color: rgba(47, 48, 58, 0.8);
   --feature-background-color: #f5f4fa;
   --services-background-color: rgba(33, 150, 243, 0.9);
@@ -515,6 +516,27 @@ a {
 
 .client-list .item + .item {
   margin-left: 30px;
+}
+
+.client-list.list .item {
+  width: 170px;
+  height: 90px;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--clients-color);
+  border-radius: 4px;
+  fill: var(--clients-color);
+}
+
+.clients-link:hover {
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* Portfolio */
