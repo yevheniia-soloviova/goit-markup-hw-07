@@ -506,14 +506,6 @@ a {
   text-align: center;
 }
 
-.client-list .item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 170px;
-  height: 90px;
-}
-
 .client-list .item + .item {
   margin-left: 30px;
 }
