@@ -819,3 +819,10 @@ strong {
 .footer .socials {
   background-color: var(--footer-color);
 }
+
+.icon-send {
+  max-width: 24px;
+  max-height: 24px;
+  margin-left: 10px;
+  margin-right: 28px;
+}
