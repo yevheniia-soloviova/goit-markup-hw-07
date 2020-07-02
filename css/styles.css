@@ -26,6 +26,7 @@ html {
     0px 1px 3px rgba(0, 0, 0, 0.12);
   --portfolio-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16),
     0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+  --footer-color: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -813,4 +814,8 @@ a {
 b,
 strong {
   font-weight: bolder;
+}
+
+.footer .socials {
+  background-color: var(--footer-color);
 }
