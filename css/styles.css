@@ -484,6 +484,27 @@ a {
   margin-bottom: 24px;
 }
 
+.socials {
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--primary-background-color);
+  fill: var(--clients-color);
+}
+
+.socials:hover,
+.social:focus {
+  background-color: var(--accent-color);
+  fill: var(--feature-background-color);
+}
+
+.social-icons {
+  max-width: 20px;
+  max-height: 20px;
+  fill: var(--clients-color);
+}
+
 /* Customers */
 
 .customers.section {
