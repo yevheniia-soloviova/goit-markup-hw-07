@@ -501,7 +501,7 @@ a {
 }
 
 .social-icons {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   max-width: 20px;
