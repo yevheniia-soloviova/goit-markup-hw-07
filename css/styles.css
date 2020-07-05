@@ -497,16 +497,17 @@ a {
 .socials:hover,
 .social:focus {
   background-color: var(--accent-color);
-  fill: var(--feature-background-color);
+  fill: var(--primary-white-color);
 }
 
 .social-icons {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   max-width: 20px;
   max-height: 20px;
   fill: var(--clients-color);
+  background-color: var(--primary-white-color);
 }
 
 /* Customers */
