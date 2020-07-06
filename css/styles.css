@@ -500,7 +500,7 @@ a {
 .socials:hover,
 .social:focus {
   background-color: var(--accent-color);
-  fill: var(--primary-white-color);
+  color: var(--primary-white-color);
 }
 
 .social-icons {
