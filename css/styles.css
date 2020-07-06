@@ -556,7 +556,6 @@ a {
 .clients-link:hover,
 .clients-logo {
   border-color: var(--accent-color);
-  fill: var(--accent-color);
   color: var(--accent-color);
 }
 
