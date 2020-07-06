@@ -808,12 +808,6 @@ a {
   margin-right: 10px;
 }
 
-.pafe-footer .socials:hover {
-  background-color: var(--accent-color);
-  fill: var(--primary-white-color);
-  color: var(--primary-white-color);
-}
-
 .social-network.list {
   margin-right: 94px;
   width: 206px;
