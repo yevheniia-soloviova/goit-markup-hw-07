@@ -493,7 +493,6 @@ a {
   height: 44px;
   border: none;
   border-radius: 50%;
-  background-color: var(--primary-background-color);
   fill: var(--primary-white-color);
   color: var(--clients-color);
 }
