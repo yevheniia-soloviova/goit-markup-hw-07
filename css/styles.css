@@ -478,12 +478,13 @@ a {
   box-shadow: var(--team-shadow);
 }
 
-.socials {
+.team-item .socials {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
   height: 44px;
+  margin-right: 10px;
   border: none;
   border-radius: 50%;
   fill: var(--primary-white-color);
