@@ -773,7 +773,7 @@ a {
   width: 206px;
 }
 
-.social.list {
+.list .social.list {
   display: flex;
   justify-self: center;
   align-items: center;
