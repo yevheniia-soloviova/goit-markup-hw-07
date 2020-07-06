@@ -558,6 +558,7 @@ a {
 .clients-logo {
   border-color: var(--accent-color);
   fill: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* Portfolio */
