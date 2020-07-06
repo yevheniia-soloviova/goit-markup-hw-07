@@ -554,7 +554,8 @@ a {
   color: var(--clients-color);
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-logo {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
