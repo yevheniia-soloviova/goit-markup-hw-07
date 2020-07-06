@@ -847,8 +847,11 @@ strong {
 }
 
 .icon-send {
+  display: inline-block;
   max-width: 24px;
   max-height: 24px;
   margin-left: 10px;
   margin-right: 28px;
+  fill: var(--primary-white-color);
+  color: var(--primary-white-color);
 }
