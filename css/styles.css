@@ -774,7 +774,7 @@ a {
 }
 
 .page-footer .socials {
-  fill: var(--secondary-background-color);
+  fill: var(--primary-white-color);
   color: var(--primary-white-color);
 }
 
