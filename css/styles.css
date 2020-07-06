@@ -498,7 +498,7 @@ a {
 }
 
 .socials:hover,
-.social:focus {
+.social-icons:hover {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
