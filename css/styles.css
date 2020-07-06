@@ -783,13 +783,12 @@ a {
   border-radius: 50%;
   fill: var(--primary-white-color);
   color: var(--primary-white-color);
-  background-color: var(--footer-color);
 }
 
 .page-footer .social-icons {
   max-width: 20px;
   max-height: 20px;
-  fill: transparent;
+  fill: var(--primary-white-color);
   color: var(--primary-white-color);
 }
 
