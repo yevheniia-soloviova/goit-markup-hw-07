@@ -769,8 +769,16 @@ a {
 }
 
 .social-network.list {
-  padding-right: 69px;
-  padding-bottom: 94px;
+  margin-right: 94px;
+  width: 206px;
+}
+
+.list .social.list {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 .page-footer .socials {
