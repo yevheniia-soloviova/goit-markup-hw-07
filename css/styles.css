@@ -660,7 +660,7 @@ a {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.button {
+.button-secondary .button {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 22px;
@@ -668,13 +668,13 @@ a {
 }
 
 .our.list .button-secondary {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
   font-style: 400;
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 63px;
-  text-align: center;
-  display: inline-block;
-  justify-content: center;
   border-radius: 4px;
   width: 145px;
   height: 38px;
