@@ -787,13 +787,16 @@ a {
   align-items: center;
   justify-content: center;
   margin-right: 10px;
-  background-color: var(--footer-color);
   width: 44px;
   height: 44px;
   border: none;
   border-radius: 50%;
   fill: var(--primary-white-color);
   color: var(--primary-white-color);
+}
+
+.social-network.list .social.list {
+  background-color: var(--footer-color);
 }
 
 .page-footer .social-icons {
