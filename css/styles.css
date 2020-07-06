@@ -774,19 +774,19 @@ a {
 }
 
 .page-footer .socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
+  border: none;
+  border-radius: 50%;
   fill: var(--primary-white-color);
   color: var(--primary-white-color);
   background-color: var(--footer-color);
 }
 
 .page-footer .social-icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  border-radius: 50%;
   max-width: 20px;
   max-height: 20px;
   fill: transparent;
@@ -796,8 +796,8 @@ a {
 .pafe-footer .socials:hover,
 .page-footer .social-icons:hover {
   background-color: var(--accent-color);
-  color: var(--primary-white-color);
   fill: var(--primary-white-color);
+  color: var(--primary-white-color);
 }
 
 .page-footer .social-icons:not(:last-child) {
