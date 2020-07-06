@@ -504,6 +504,13 @@ a {
   color: var(--clients-color);
 }
 
+.team.section .social.list {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
 /* Customers */
 
 .customers.section {
@@ -790,6 +797,10 @@ a.socials {
   max-height: 20px;
   fill: var(--primary-white-color);
   color: var(--primary-white-color);
+}
+
+.page-footer .social-icons:not(:last-child) {
+  margin-right: 10px;
 }
 
 .pafe-footer .socials:hover,
