@@ -830,6 +830,11 @@ strong {
 }
 
 .page-footer .socials {
+  fill: var(--secondary-background-color);
+  color: var(--primary-white-color);
+}
+
+.page-footer .social-icons {
   fill: var(--primary-white-color);
   color: var(--primary-white-color);
 }
@@ -839,11 +844,6 @@ strong {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   fill: var(--primary-white-color);
-}
-
-.page-footer .social-icons {
-  fill: var(--primary-white-color);
-  color: var(--primary-white-color);
 }
 
 .icon-send {
