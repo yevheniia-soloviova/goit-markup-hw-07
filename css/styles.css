@@ -482,6 +482,7 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 0px;
+  margin-right: 10px;
   margin-bottom: 24px;
 }
 
@@ -491,7 +492,6 @@ a {
   align-items: center;
   width: 44px;
   height: 44px;
-  margin-right: 10px;
   border: none;
   border-radius: 50%;
   fill: var(--primary-white-color);
