@@ -773,18 +773,28 @@ a {
   padding-bottom: 94px;
 }
 
+.page-footer .socials {
+  fill: var(--secondary-background-color);
+  color: var(--primary-white-color);
+}
+
 .page-footer .social-icons {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 44px;
   height: 44px;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
+  border: none;
   border-radius: 50%;
-  border: 0px;
+  fill: var(--primary-white-color);
+  color: var(--primary-white-color);
+}
+
+.pafe-footer .socials:hover,
+.page-footer .social-icons:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  fill: var(--primary-white-color);
 }
 
 .page-footer .social-icons:not(:last-child) {
