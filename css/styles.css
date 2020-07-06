@@ -794,9 +794,6 @@ a {
   border-radius: 50%;
   fill: var(--primary-white-color);
   color: var(--primary-white-color);
-}
-
-.social-network.list .social.list {
   background-color: var(--footer-color);
 }
 
