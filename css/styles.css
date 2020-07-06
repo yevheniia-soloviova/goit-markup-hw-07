@@ -478,13 +478,6 @@ a {
   box-shadow: var(--team-shadow);
 }
 
-.team.section .social.list {
-  display: flex;
-  justify-content: center;
-  margin-top: 0px;
-  margin-bottom: 24px;
-}
-
 .socials {
   display: flex;
   justify-content: center;
