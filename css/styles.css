@@ -774,10 +774,11 @@ a {
 }
 
 .page-footer .socials {
-  fill: var(--primary-white-color);
-  color: var(--primary-white-color);
   width: 44px;
   height: 44px;
+  fill: var(--primary-white-color);
+  color: var(--primary-white-color);
+  background-color: var(--footer-color);
 }
 
 .page-footer .social-icons {
