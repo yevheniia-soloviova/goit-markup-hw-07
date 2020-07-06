@@ -478,7 +478,7 @@ a {
   box-shadow: var(--team-shadow);
 }
 
-.social.list {
+.team.section .social.list {
   display: flex;
   justify-content: center;
   margin-top: 0px;
