@@ -768,6 +768,10 @@ a {
   line-height: 1, 71;
 }
 
+a.socials {
+  margin-right: 10px;
+}
+
 .social-network.list {
   margin-right: 94px;
   width: 206px;
