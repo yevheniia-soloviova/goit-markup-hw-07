@@ -491,7 +491,8 @@ a {
   border: none;
   border-radius: 50%;
   background-color: var(--primary-background-color);
-  fill: var(--clients-color);
+  fill: var(--primary-white-color);
+  color: var(--clients-color);
 }
 
 .socials:hover,
@@ -542,7 +543,7 @@ a {
 }
 
 .clients-link {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 170px;
