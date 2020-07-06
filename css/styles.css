@@ -776,16 +776,18 @@ a {
 .page-footer .socials {
   fill: var(--primary-white-color);
   color: var(--primary-white-color);
+  width: 44px;
+  height: 44px;
 }
 
 .page-footer .social-icons {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
   border: none;
   border-radius: 50%;
+  max-width: 20px;
+  max-height: 20px;
   fill: var(--primary-white-color);
   color: var(--primary-white-color);
 }
