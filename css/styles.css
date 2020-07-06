@@ -783,7 +783,7 @@ a {
   padding-left: 0px;
 }
 
-.page-footer .social .a {
+.page-footer .social .list .a {
   display: flex;
   align-items: center;
   justify-content: center;
