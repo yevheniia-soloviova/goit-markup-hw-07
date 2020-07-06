@@ -808,8 +808,7 @@ a {
   margin-right: 10px;
 }
 
-.pafe-footer .socials:hover,
-.page-footer .social-icons:hover {
+.pafe-footer .socials:hover {
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
   color: var(--primary-white-color);
