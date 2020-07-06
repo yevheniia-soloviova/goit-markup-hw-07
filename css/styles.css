@@ -768,12 +768,10 @@ a {
   line-height: 1, 71;
 }
 
-.page-footer .social.list {
+.social-network.list .list {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
@@ -782,6 +780,14 @@ a {
   padding-right: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
+}
+
+.social-network.list .socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
   border: none;
   border-radius: 50%;
   fill: var(--primary-white-color);
