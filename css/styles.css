@@ -812,9 +812,9 @@ a {
 }
 
 .join {
+  display: inline-block;
   margin-top: 0px;
   margin-bottom: 20px;
-  padding-top: 40px;
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 14px;
