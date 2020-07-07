@@ -479,14 +479,6 @@ a {
 }
 
 .team-section .socials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
-  border: none;
-  border-radius: 50%;
   fill: var(--primary-white-color);
   color: var(--clients-color);
 }
@@ -496,7 +488,7 @@ a {
   fill: var(--primary-white-color);
 }
 
-.a.socials:hover {
+.socials:hover {
   background-color: var(--accent-color);
 }
 
