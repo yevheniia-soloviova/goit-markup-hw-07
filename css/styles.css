@@ -489,7 +489,6 @@ a {
   border-radius: 50%;
   fill: var(--clients-color);
   color: var(--clients-color);
-  background-color: var(--primary-white-color);
 }
 
 .social-icons:hover {
