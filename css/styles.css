@@ -478,7 +478,7 @@ a {
   box-shadow: var(--team-shadow);
 }
 
-.team-section .social.list .socials {
+.team-section .socials {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -491,11 +491,13 @@ a {
   color: var(--clients-color);
 }
 
-.socials:hover,
 .social-icons:hover {
-  background-color: var(--accent-color);
   color: var(--primary-white-color);
   fill: var(--primary-white-color);
+}
+
+.socials:hover {
+  background-color: var(--accent-color);
 }
 
 .social-icons {
