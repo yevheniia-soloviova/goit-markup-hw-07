@@ -496,7 +496,7 @@ a {
   fill: var(--primary-white-color);
 }
 
-.socials:hover {
+.a.socials:hover {
   background-color: var(--accent-color);
 }
 
