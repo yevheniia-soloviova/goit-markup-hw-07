@@ -777,7 +777,7 @@ a {
   padding-left: 0px;
 }
 
-.socials {
+.page-footer .socials {
   display: flex;
   align-items: center;
   justify-content: center;
