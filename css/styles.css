@@ -493,8 +493,8 @@ a {
 }
 
 .social-icons {
-  min-width: 20px;
-  min-height: 20px;
+  max-width: 20px;
+  max-height: 20px;
   fill: var(--clients-color);
   color: var(--clients-color);
 }
