@@ -516,10 +516,12 @@ a {
   background-color: var(--primary-white-color);
 }
 
-.socials:hover,
-.social-icons:hover {
+.team.section .social-icons:hover {
   color: var(--primary-white-color);
   fill: var(--primary-white-color);
+}
+
+.team.section .socials:hover {
   background-color: var(--accent-color);
 }
 
@@ -626,10 +628,6 @@ a {
   margin-bottom: 0px;
 }
 
-.flex-element:hover {
-  box-shadow: var(--portfolio-shadow);
-}
-
 .portfolio-kinds {
   margin-bottom: 50px;
 }
@@ -693,6 +691,10 @@ a {
 .portfolio-item:hover .services-text {
   transform: translateY(0);
   opacity: 1;
+}
+
+.portfolio-item:hover {
+  box-shadow: var(--portfolio-shadow);
 }
 
 .portfolio.list .portfolio-meta {
@@ -840,8 +842,7 @@ a {
   background-color: var(--footer-color);
 }
 
-.page-footer .socials:hover,
-.page-footer .social-icons:hover {
+.page-footer .socials:hover {
   color: var(--primary-white-color);
   fill: var(--primary-white-color);
   background-color: var(--accent-color);
