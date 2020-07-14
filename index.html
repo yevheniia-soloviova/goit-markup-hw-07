@@ -66,7 +66,9 @@
             ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />
             ДЛЯ ВАШЕГО БИЗНЕСА
           </h1>
-          <button class="button-primary">Заказать уcлугу</button>
+          <button class="button-primary" data-modal-open>
+            Заказать уcлугу
+          </button>
         </div>
       </section>
       <section class="features section">
@@ -350,14 +352,100 @@
           </div>
           <div class="subscribe">
             <b class="sign">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
-            <a href="#" class="button-primary"
-              >Подписаться<svg class="icon-send">
-                <use href="./images/sprite.svg#icon-icon-send"></use>
-              </svg>
-            </a>
+            <form>
+              <input type="text" name="e-mail" value="E-mail" />
+              <a href="#" class="button-footer"
+                >Подписаться<svg class="icon-send">
+                  <use href="./images/sprite.svg#icon-icon-send"></use>
+                </svg>
+              </a>
+            </form>
           </div>
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>
+          <svg class="icon-icon-close" width="18" height="18">
+            <use href="./images/sprite.svg#icon-icon-close"></use>
+          </svg>
+        </button>
+        <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
+        <form class="form js-form">
+          <div class="group-form-fields" role="group">
+            <div class="form-field">
+              <input
+                class="form-input"
+                type="text"
+                placeholder=""
+                name=" customer-name"
+                id="customer-name"
+              />
+              <label class="form-label" for="customer-name">Имя</label>
+              <svg class="icon-icon-person" width="18" height="18">
+                <use href="./images/sprite.svg#icon-icon-person"></use>
+              </svg>
+            </div>
+            <br />
+            <div class="form-field">
+              <input
+                class="form-input"
+                type="tel"
+                placeholder=" "
+                name="customer-phone"
+                id="customer-phone"
+              />
+              <label class="form-label" for="customer-phone">Телефон</label>
+              <svg class="icon-icon-phone-2" width="18" height="18">
+                <use href="./images/sprite.svg#icon-icon-phone-2"></use>
+              </svg>
+            </div>
+            <br />
+            <div class="form-field">
+              <input
+                class="form-input"
+                type="email"
+                placeholder=" "
+                name="customer-mail"
+                id="customer-mail"
+              />
+              <label class="form-label" for="customer-mail">Почта</label>
+              <svg class="icon-icon-envelope-2" width="18" height="18">
+                <use href="./images/sprite.svg#icon-icon-envelope-2"></use>
+              </svg>
+            </div>
+            <br />
+            <div class="form-field">
+              <textarea
+                class="comment form-input"
+                name="comment"
+                placeholder=" "
+                id="comment"
+                rows="6"
+              ></textarea>
+              <label class="form-label-2" for="comment">Комментарий</label>
+            </div>
+          </div>
+          <div class="policy-field">
+            <label class="checkbox-field">
+              <input
+                type="checkbox"
+                class="checkbox hidden"
+                required
+                value="policy"
+                name="policy"
+              />
+              <span class="checkbox-label">
+                Соглашаюсь с рассылкой и принимаю
+                <a href="" class="agreement-terms">Условия договора</a>
+              </span>
+            </label>
+          </div>
+          <button class="button" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
