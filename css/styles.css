@@ -1088,60 +1088,61 @@ strong {
   transition-delay: 0s;
 }
 
-.policy-field {
-  margin-top: 0px;
-  margin-right: 12px;
-  margin-bottom: 30px;
-  margin-left: 13px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--text-color);
-  transition-property: all;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0s;
-}
-
-.checkbox-field,
-.checkbox-label {
-  display: inline-flex;
+.checkbox-agreement {
+  display: flex;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
-.hidden {
+.checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: -1px;
+  margin-top: -1px;
+  margin-right: -1px;
+  margin-bottom: -1px;
+  margin-left: -1px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
   border: 0;
-  padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
-.checkbox .checkbox-label::before {
-  content: "";
-  display: block;
-  width: 16px;
-  height: 15px;
-  border: 2px solid var(--primary-text-color);
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  margin-right: 8px;
-  flex-shrink: 0;
-  transition-property: all;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0s;
+.label-agreement {
+  display: flex;
+  align-items: center;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
-.agreement-terms {
-  margin-left: 2px;
+.checkbox:checked + .label-agreement::before {
+  background-origin: border-box;
+  background-color: var(--accent-color);
+  background-position-x: 50%;
+  background-position-y: 50%;
+  border: transparent;
+}
+
+.label-agreement::before {
+  content: "";
+  width: 15.9px;
+  height: 15px;
+  margin-left: 12px;
+  margin-right: 8px;
+  border: 2px solid var(--primary-text-color);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.checkbox-agreement a {
+  margin-left: 3px;
   text-decoration-line: underline;
   color: var(--accent-color);
 }
