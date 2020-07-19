@@ -1079,6 +1079,10 @@ strong {
   fill: var(--accent-color);
 }
 
+.modal-close:focus ~ .icon-icon-close {
+  fill: var(--accent-color);
+}
+
 .form-input:focus {
   border: 1px solid var(--accent-color);
   outline: none;
@@ -1091,7 +1095,7 @@ strong {
   color: var(--accent-color);
 }
 
-.form-field .textarea {
+.comment.form-input {
   position: relative;
 }
 
