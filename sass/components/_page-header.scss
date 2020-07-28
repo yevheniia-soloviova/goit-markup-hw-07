@@ -34,10 +34,10 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
 
-  .main-nav {
-    @extend %centered;
-  }
+.main-nav {
+  @extend %centered;
 }
 
 .section {
