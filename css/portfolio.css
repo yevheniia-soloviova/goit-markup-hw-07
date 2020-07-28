@@ -10,7 +10,7 @@
   list-style: none;
 }
 
-.container .main-nav, .main-nav, .contact-nav {
+.main-nav, .contact-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
