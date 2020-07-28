@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.page-header {
+  display: flex;
+  background-color: $primary-white-color;
+  margin: 0px;
+}
+
+.header {
+  display: block;
+
+  .container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .main-nav {
+    @extend %centered;
+  }
+}
+
+.section {
+  display: block;
+  padding-bottom: 94px;
+}
