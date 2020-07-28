@@ -16,7 +16,7 @@
   height: auto;
 }
 
-.container .main-nav, .main-nav, .contact-nav {
+.main-nav, .contact-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
