@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: $font-family;
   letter-spacing: 0.03em;
 }
 
@@ -43,4 +43,16 @@ body {
 .section {
   display: block;
   padding-bottom: 94px;
+}
+
+.list {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  list-style: none;
 }
