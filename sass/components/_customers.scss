@@ -1,0 +1,49 @@
+.customers.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.customers-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: $primary-text-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
+}
+
+.client-list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.client-list .item + .item {
+  margin-left: 30px;
+}
+
+.client-list.list .item {
+  width: 170px;
+  height: 90px;
+}
+
+.clients-link {
+  @extend %centered;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid $clients-color;
+  border-radius: 4px;
+  fill: $clients-color;
+  color: $clients-color;
+  transition-property: color, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  .clients-logo:hover {
+    border-color: $accent-color;
+    color: $accent-color;
+  }
+}
