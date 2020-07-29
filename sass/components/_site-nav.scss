@@ -30,7 +30,6 @@
 }
 
 .site-nav.list {
-  @extend %list;
   display: flex;
   margin-left: 85px;
 }
