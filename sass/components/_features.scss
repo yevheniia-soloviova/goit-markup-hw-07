@@ -1,0 +1,65 @@
+.icon {
+  width: 70px;
+  height: 70px;
+}
+
+.feature.list {
+  display: flex;
+}
+
+.feature-title {
+  display: block;
+  color: $primary-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.feature-text {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: $text-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.feature .list a {
+  background-color: $feature-background-color;
+}
+
+.features .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 51px;
+
+  &-img {
+    background-color: $feature-background-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    min-width: 270px;
+    min-height: 120px;
+  }
+}
+
+.features .container {
+  padding-top: 54px;
+}
