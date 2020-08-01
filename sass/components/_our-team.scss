@@ -4,7 +4,7 @@
 }
 
 .command-list.list {
-  display: block;
+  display: flex;
 }
 
 .our-team {
@@ -22,7 +22,7 @@
 
   &-name {
     display: block;
-    margin-top: 0;
+    margin-top: 30px;
     margin-bottom: 10px;
     color: $primary-text-color;
     font-weight: 500;
@@ -34,7 +34,7 @@
 }
 
 .team-title {
-  margin-top: 0;
+  margin-top: 0px;
   margin-bottom: 16px;
   color: $text-color;
   font-weight: 400;
@@ -61,6 +61,7 @@
   @extend %centered;
   justify-content: center;
   margin-right: 10px;
+  margin-bottom: 24px;
   width: 44px;
   height: 44px;
   border: none;
@@ -84,8 +85,8 @@
   background-color: $accent-color;
 }
 
-.social.list a:last-child {
-  margin-right: 0;
+.social-item:not(:last child) {
+  margin-right: 10px;
 }
 
 .social-icons {
