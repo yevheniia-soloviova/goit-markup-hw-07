@@ -11,7 +11,7 @@
   color: $primary-text-color;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   @extend %transition;
 
@@ -73,7 +73,7 @@
   font-weight: 500;
   font-size: 14px;
   font-style: normal;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   &:hover,
@@ -88,7 +88,7 @@ a {
 
 .icon.icon-envelope {
   width: 16px;
-  height: 11, 2px;
+  height: 11.2px;
   fill: $text-color;
   margin-right: 10px;
 
@@ -99,7 +99,7 @@ a {
 
 .icon.icon-smartphone {
   width: 10px;
-  height: 14, 94px;
+  height: 14.94px;
   fill: $text-color;
   margin-right: 10px;
 
