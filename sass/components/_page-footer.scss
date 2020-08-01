@@ -1,7 +1,7 @@
 .footer {
   .container {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -9,8 +9,8 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -42,10 +42,10 @@
 
 .contacts {
   color: $contacts-color;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
   margin-bottom: 9px;
   font-style: 400;
   font-weight: 400;
@@ -56,14 +56,14 @@
 .social-network.list .list {
   @extend %centered;
   justify-content: center;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
 }
 
 .page-footer .socials {
@@ -104,7 +104,7 @@
 
 .join {
   display: inline-block;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 20px;
   color: $primary-white-color;
   font-weight: 700;
@@ -114,7 +114,7 @@
 
 .sign {
   display: inline-block;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 20px;
   color: $primary-white-color;
   font-weight: 700;
@@ -148,7 +148,7 @@
   background-color: $secondary-background-color;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
